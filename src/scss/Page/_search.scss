@@ -1,0 +1,32 @@
+.search {
+    
+    .search-bar {
+      display: flex; 
+      align-items: center; 
+      .btn-search {
+        background: #6200EE;
+        font-size: 16px; 
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-radius: 30px;
+        padding: 10px 20px;
+        color: #fff;
+      }
+    }
+  }
+  .text-resultSearch{
+    background: linear-gradient(180deg,#F21299,#1B02B5);
+    display: flex;
+    align-items: center;
+    
+    text-align: center;
+  }
+  .text-search {
+    font-weight: 500;
+    color: darkgrey;
+    font-size: 25px;
+  }
+  
+  
+  

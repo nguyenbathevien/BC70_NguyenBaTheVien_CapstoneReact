@@ -1,0 +1,40 @@
+.cards-header {
+    .heart {
+      top: 20px;
+      right: 20px;
+      font-size: 30px;
+      color: red;
+    }
+    .card-body {
+      .text-des{
+        font-weight: 300;
+      }
+      .shadow-box {
+        display: flex;
+        .btn-buy, .product-price {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 50px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px; /* Tùy chọn: để làm mềm các góc */
+  overflow: hidden;
+        }
+        .btn-buy {
+          border-radius: 0;
+          border: none;
+        }
+        
+        .product-price {
+          background-color: #F8F8F8; 
+          font-weight: bold;
+          color: #000; 
+          p {
+            margin: 0; 
+          }
+        }
+      }
+    }
+  }
+  

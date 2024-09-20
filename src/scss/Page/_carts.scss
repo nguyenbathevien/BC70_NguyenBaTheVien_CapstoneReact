@@ -1,0 +1,45 @@
+.cart-table {
+  .ant-table {
+    width: 100%;
+
+    .ant-table-thead > tr > th {
+      white-space: nowrap; // Ngăn tiêu đề cột bị xuống dòng
+    }
+
+    .ant-table-cell {
+      white-space: nowrap; // Ngăn dữ liệu trong cột bị xuống dòng
+    }
+    
+    // Đặt độ rộng cố định cho các cột cụ thể
+    th:nth-child(2), td:nth-child(2) { // Cột ID
+      width: 10%; // Đặt độ rộng cột ID là 10%
+    }
+    th:nth-child(3), td:nth-child(3) { // Cột Hình ảnh
+      width: 15%; // Đặt độ rộng cột Hình ảnh là 15%
+    }
+    th:nth-child(4), td:nth-child(4) { // Cột Tên sản phẩm
+      width: 35%; // Đặt độ rộng cột Tên sản phẩm là 35%
+    }
+    th:nth-child(5), td:nth-child(5) { // Cột Giá
+      width: 15%; // Đặt độ rộng cột Giá là 15%
+    }
+    th:nth-child(6), td:nth-child(6) { // Cột Số lượng
+      width: 15%; // Đặt độ rộng cột Số lượng là 15%
+
+      input {
+        width: 80px; // Đặt độ rộng cố định cho ô nhập số lượng
+        text-align: center; // Canh giữa số lượng
+      }
+    }
+    th:nth-child(7), td:nth-child(7) { // Cột Tổng giá
+      width: 15%; // Đặt độ rộng cột Tổng giá là 15%
+    }
+    th:nth-child(8), td:nth-child(8) { // Cột Hành động
+      width: 15%; // Đặt độ rộng cột Hành động là 15%
+    }
+  }
+  
+  .btn {
+    margin: 0 5px; // Khoảng cách giữa các nút
+  }
+}

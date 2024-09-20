@@ -1,0 +1,72 @@
+.container {
+    .form-control {
+      width: 300px; // Đặt độ rộng của các ô input
+      background: #21212114;
+    }
+  
+    .row {
+      .btn-update {
+        margin-right: 170px;
+        background: #6200EE;
+        color: #fff;
+        
+        &:hover {
+          background: #6200EE;
+          color: orange;
+        }
+      }
+  
+      .gender-button {
+        background: #6200EE;
+      }
+    }
+  
+    // CSS cho bảng
+    .table {
+      width: 100%;
+      table-layout: fixed; // Đảm bảo cột có kích thước cố định
+      border-collapse: collapse;
+  
+      th, td {
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        text-align: center;
+        vertical-align: middle;
+      }
+  
+      th {
+        background-color: #f8f8f8;
+      }
+  
+      // Đặt độ rộng cho từng cột
+      th:nth-child(1), td:nth-child(1) {
+        width: 10%; // ID
+      }
+  
+      th:nth-child(2), td:nth-child(2) {
+        width: 15%; // Hình ảnh
+      }
+  
+      th:nth-child(3), td:nth-child(3) {
+        width: 25%; // Tên sản phẩm
+      }
+  
+      th:nth-child(4), td:nth-child(4) {
+        width: 15%; // Giá
+      }
+  
+      th:nth-child(5), td:nth-child(5) {
+        width: 10%; // Số lượng
+      }
+  
+      th:nth-child(6), td:nth-child(6) {
+        width: 25%; // Tổng cộng
+      }
+  
+      img {
+        max-width: 50px;
+        height: auto;
+      }
+    }
+  }
+  

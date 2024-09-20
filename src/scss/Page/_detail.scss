@@ -1,0 +1,22 @@
+.detail-row {
+    h2{
+        font-weight: 300;
+    }
+    .text-Available{
+        font-weight: 500;
+        color:  #1ED90E;
+        ;
+    }
+    .btn-size{
+        background: #c7d2c7;
+        color: #000;
+        font-weight: bold;
+    }
+    .price{
+        font-weight: 600;
+        color: red  ;
+    }
+    .btn-quantity{
+        background: linear-gradient(90deg, #6181F3, #7C97F5);
+    }
+}

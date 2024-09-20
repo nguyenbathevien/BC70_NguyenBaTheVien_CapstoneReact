@@ -1,0 +1,36 @@
+.btn-login{
+    background: #6200EE;
+    padding: 10px 30px;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+}
+.fb-login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#1877F2; /* Facebook blue */
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width to match the form */
+    
+    &:hover {
+      background-color: #365899; /* Darker blue on hover */
+    }
+  
+    .anticon {
+      margin-right: 10px;
+    }
+  
+    /* Style icon inside the button */
+    svg {
+      font-size: 30px;
+      margin-right: 10px;
+    }
+  }

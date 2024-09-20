@@ -1,0 +1,43 @@
+.footer-section {
+  margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    flex: 1;
+    position: relative;
+    
+    a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+    }
+  h5{
+    font-weight: 700;
+  }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 90%;
+      width: 1px;
+      background-color: #ccc;
+    }
+  
+    &:last-child::after {
+      display: none;
+    }
+  }
+  
+  .copyright {
+    background-color: #d3d3d3;
+    box-shadow: 0 -10px 20px rgba(12, 12, 12, 0.1);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    p {
+      margin: 0;
+    }
+  }
+  
