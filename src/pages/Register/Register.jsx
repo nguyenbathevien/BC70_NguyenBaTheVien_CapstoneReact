@@ -68,16 +68,18 @@ const Register = () => {
               <label htmlFor="email" className="form-label">
                 Email
               </label>
-              <input
-                type="email"
-                className="form-control"
-                id="email"
-                name="email"
-                placeholder="email"
-                onChange={frmRegister.handleChange}
-                onBlur={frmRegister.handleBlur}
-                value={frmRegister.values.email}
-              />
+              <div className="input-group">
+                <input
+                  type="email"
+                  className="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="email"
+                  onChange={frmRegister.handleChange}
+                  onBlur={frmRegister.handleBlur}
+                  value={frmRegister.values.email}
+                />
+              </div>
               {frmRegister.touched.email && frmRegister.errors.email && (
                 <div className="form-text text-danger">
                   {frmRegister.errors.email}
@@ -157,16 +159,18 @@ const Register = () => {
               <label htmlFor="name" className="form-label">
                 Name
               </label>
-              <input
-                type="text"
-                className="form-control"
-                id="name"
-                name="name"
-                placeholder="name"
-                onChange={frmRegister.handleChange}
-                onBlur={frmRegister.handleBlur}
-                value={frmRegister.values.name}
-              />
+              <div className="input-group">
+                <input
+                  type="text"
+                  className="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="name"
+                  onChange={frmRegister.handleChange}
+                  onBlur={frmRegister.handleBlur}
+                  value={frmRegister.values.name}
+                />
+              </div>
               {frmRegister.touched.name && frmRegister.errors.name && (
                 <div className="form-text text-danger">
                   {frmRegister.errors.name}
@@ -178,16 +182,18 @@ const Register = () => {
               <label htmlFor="phone" className="form-label">
                 Phone
               </label>
-              <input
-                type="text"
-                className="form-control"
-                id="phone"
-                name="phone"
-                placeholder="phone"
-                onChange={frmRegister.handleChange}
-                onBlur={frmRegister.handleBlur}
-                value={frmRegister.values.phone}
-              />
+              <div className="input-group">
+                <input
+                  type="text"
+                  className="form-control"
+                  id="phone"
+                  name="phone"
+                  placeholder="phone"
+                  onChange={frmRegister.handleChange}
+                  onBlur={frmRegister.handleBlur}
+                  value={frmRegister.values.phone}
+                />
+              </div>
               {frmRegister.touched.phone && frmRegister.errors.phone && (
                 <div className="form-text text-danger">
                   {frmRegister.errors.phone}
